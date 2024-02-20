@@ -1,7 +1,16 @@
 *{
     margin: 0;}
-    body{
+body {
     background-color: #0D0D0D;
+    background-image: url('android-chrome-512x512.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.fundo{
+    background-color: rgba(0, 0, 0, 30%);
 }
 a{ text-decoration: none}
  /*menu*/
@@ -84,13 +93,14 @@ a{ text-decoration: none}
   }
   .button-bode-01{
     padding: 20px 75px;
-    font-size: 24px;
+    font-size: 20px;
     font-family:  "Alfa Slab One", serifa;  
     color: #ccc;
     background-color: #019733;
     border-radius: 
     8px;
-}.button-bode-01:hover{
+}
+.button-bode-01:hover{
         background-color: #00be3f;
     }
 .texto-1{
@@ -169,7 +179,7 @@ a{ text-decoration: none}
     border-radius: 8px;
 }
 .button-discord:hover{background-color: #7681f0;}
-@media (max-width: 884px) {
+@media (max-width: 890px) {
 
     .video{
         width: 75%;
@@ -180,12 +190,15 @@ a{ text-decoration: none}
       }
 
     .texto-1{
-        color: #ccc;
+         color: #ccc;
         display: flex;
         justify-content: center;
-        font-size: 19px;
-        margin-top: 50px;
+        font-size: 20px;
+        margin-top: 15px;
+        text-align: center;
+        
     }
+    
     .img-redes{width: 100px;}
 
     .telegram, .discord, .what, .youtube, .inst{
@@ -281,7 +294,14 @@ a{ text-decoration: none}
         text-align: center;
     }
     .img-redes{width: 50px;}
-
+    .button-bode-01{
+        padding: 20px 40px;
+        font-size: 20px;
+        font-family:  "Alfa Slab One", serifa;  
+        color: #ccc;
+        background-color: #019733;
+        border-radius: 
+        8px;}
     .telegram, .discord, .what, .youtube, .inst{
         display: flex;
         flex-direction: column;
