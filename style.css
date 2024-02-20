@@ -1,0 +1,312 @@
+*{
+    margin: 0;}
+    body{
+    background-color: #0D0D0D;
+}
+a{ text-decoration: none}
+ /*menu*/
+
+  .menu-bord{
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     
+  }
+
+  .menu {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+   
+  }
+  
+  .quebra-rede, .quebra-rede2{
+    display: contents;
+
+}
+
+  .menu li {
+    float: left;
+    margin-top: 1px;
+    margin-left: 30px ;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 18px;
+    
+  }
+  .less{font-family:  "Roboto", sans-serif;}
+  
+  .menu li:hover {
+    background-color: #ddd;
+  }
+  /*fim menu*/
+  .titulo-call, .titulo-plata, .titulo-rede{
+    font-size: 40px;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+   
+        font-family: "Allerta Stencil", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 35px;      
+  }
+ 
+  .video{
+    width: 65%;
+    height: 65vh;
+    display: flex;
+    margin: auto;
+    border-radius: 16px;
+  }
+  .div-video{ margin-bottom: 150px;}
+  
+  .img-bode{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+
+  .button-bode{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .button-bode-01{
+    padding: 20px 75px;
+    font-size: 24px;
+    font-family:  "Alfa Slab One", serifa;  
+    color: #ccc;
+    background-color: #019733;
+    border-radius: 
+    8px;
+}.button-bode-01:hover{
+        background-color: #00be3f;
+    }
+.texto-1{
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    font-size:24px;
+    margin-top: 50px;
+}
+
+/*img redes */
+.img-redes{width: 150px;}
+
+.telegram, .discord, .what, .youtube, .inst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+
+
+.ling{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+/*fim img redes*/
+
+/*button redes*/
+
+.button-telegram{
+    font-size: 20px;
+    background-color: #039BE5;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.button-telegram:hover{
+    background-color: #67ccff;}
+.button-whats:hover{
+    background-color: #01a5f7;}
+.button-whats{
+    font-size: 20px;
+    background-color: #29A71A;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.button-whats:hover{
+    background-color: #36f021;}
+.button-instagram{
+    font-size: 20px;
+    
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-image: linear-gradient(94deg, #7923BB 0%, #DA8841 100%);
+  border-radius: 8px
+}
+.button-instagram:hover{
+    background-image: linear-gradient(94deg, #9e30f3 0%, #f5b278 100%);}
+.button-youtube{
+    font-size: 20px;
+    background-color: #FF0000;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.button-youtube:hover{ background-color: #f83d3d;}
+
+.button-discord{
+    font-size: 20px;
+    background-color: #5865F2;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.button-discord:hover{background-color: #7681f0;}
+@media (max-width: 884px) {
+
+    .video{
+        width: 75%;
+        height: 40vh;
+        display: flex;
+        margin: auto;
+        border-radius: 16px;
+      }
+
+    .texto-1{
+        color: #ccc;
+        display: flex;
+        justify-content: center;
+        font-size: 19px;
+        margin-top: 50px;
+    }
+    .img-redes{width: 100px;}
+
+    .telegram, .discord, .what, .youtube, .inst{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .button-telegram{
+        font-size: 15px;
+        background-color: #039BE5;
+        padding: 10px 15px;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+    
+    .button-whats{
+        font-size: 15px;
+        background-color: #29A71A;
+        padding: 10px 15px;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+    .button-instagram{
+        font-size: 15px;
+        
+        padding: 10px 15px;
+        margin-top: 20px;
+        background-image: linear-gradient(94deg, #7923BB 0%, #DA8841 100%);
+      border-radius: 8px
+    }
+    .button-youtube{
+        font-size: 15px;
+        background-color: #FF0000;
+        padding: 10px 15px;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+    .button-discord{
+        font-size: 15px;
+        background-color: #5865F2;
+        padding: 10px 15px;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+
+
+  }
+  @media (max-width: 430px) {
+    .menu li a {
+        text-decoration: none;
+        color: #ff0000;
+        font-size: 13px;
+        
+      }
+      .menu li {
+        float: left;
+        margin-top: 1px;
+        margin-left: 10px ;
+        padding: 3px;
+        border-radius: 5px;
+        text-align: center;
+        
+      }
+
+    .titulo-call, .titulo-plata, .titulo-rede{
+    font-size: 20px;
+    
+    margin-top: 50px;
+   
+     
+  }
+      .titulo-plata{
+        margin-top: 25px;
+      }
+   
+
+    .video{
+        width: 80%;
+        height: 30vh;
+        display: flex;
+        margin: auto;
+  
+      }
+      .div-video{ margin-bottom: 50px;}
+
+    .texto-1{
+        color: #ccc;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .img-redes{width: 50px;}
+
+    .telegram, .discord, .what, .youtube, .inst{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+    .button-telegram, .button-whats,.button-instagram, .button-youtube, .button-discord{
+        font-size: 10px;
+        margin-top: 20px;
+        border-radius: 8px;
+        padding: 10px 15px;
+    }
+    
+    .quebra-rede, .quebra-rede2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+    .ling{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+   
+  }
+
+
